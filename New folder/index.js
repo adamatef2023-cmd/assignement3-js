@@ -104,8 +104,8 @@ function visitProduct(visitIndex) {
 }
 
 function exiteMessage(exiteIndex) {
- window.close(exiteIndex);
-
+//  window.close(exiteIndex);
+   message.classList.add('d-none');
    displayProduct(productList);
    console.log(productList);
 
